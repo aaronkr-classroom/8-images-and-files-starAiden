@@ -5,5 +5,5 @@
 
 <p><b>ImageMagick installed: </b>
 <?= (extension_loaded('imagick') and class_exists('Imagick')) ? 'Yes' : 'No'; ?></p>
-
+<?php phpinfo(); ?>
 <?php include 'includes/footer.php' ?>
